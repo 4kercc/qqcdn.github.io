@@ -17,7 +17,7 @@ fi
 . $public_file
 
 download_Url=$NODE_URL
-Umaru_Url=https://qqcdn.github.io
+Umaru_Url=https://github.com/4kercc/qqcdn.github.io/raw/master
 setup_path=/www
 version=$(curl -Ss https://www.bt.cn/api/panel/get_version)
 if [ "$version" = '' ];then
